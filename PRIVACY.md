@@ -1,43 +1,44 @@
-# BEACON Privacy Policy & Data Disclosure
+# Beacon Privacy Policy & Data Disclosure
 
-**Effective Date**: October 2026  
-**Last Updated**: October 2026
+**Effective Date**: November 2026  
+**Last Updated**: November 2026
 
-BEACON is designed from the ground up to respect absolute user privacy and data sovereignty.
-
----
-
-## 1. Zero Network Transmission & 100% Offline Autonomy
-
-- **No Internet Permission**: BEACON's manifest explicitly **does not request** the `android.permission.INTERNET` permission.
-- **No Remote Servers**: BEACON has no backend servers, cloud databases, or API integrations.
-- **No Tracking / Analytics**: Zero crash reporting SDKs, zero user tracking libraries, zero advertising frameworks, and zero third-party telemetry.
-- **Zero Data Collection**: BEACON never collects, transmits, sells, or shares personal data with any third party.
+Beacon is engineered around complete data transparency, minimal permission usage, and local user control.
 
 ---
 
-## 2. On-Device Storage (Room SQLite)
+## 1. Network Disconnection & Zero External Data Collection
 
-All application state—including designated emergency contacts, custom SMS template texts, delayed timer settings, and emergency activation logs—is stored exclusively on your device in an encrypted local SQLite database via Android's Room persistence library.
-- Data remains strictly on your device.
-- Uninstalling BEACON completely purges all local app data.
+- **No Internet Permission**: Beacon's manifest explicitly **does not request** the `android.permission.INTERNET` permission. The application cannot transmit IP network data to any remote server or endpoint.
+- **No Developer Backend**: Beacon operates without cloud servers, user accounts, remote databases, or external APIs.
+- **No Analytics or Telemetry**: Beacon includes zero analytics frameworks, zero crash-reporting SDKs, zero advertising libraries, and zero third-party tracking scripts.
+- **Zero Third-Party Sharing**: No user data, contact information, location coordinates, or usage logs are collected or sold by the developer or shared with third parties.
 
 ---
 
-## 3. Android Runtime Permissions Usage
+## 2. On-Device Local Data Storage
 
-BEACON requests runtime permissions solely to perform emergency alerts initiated directly by the user:
+All application configuration and history—including emergency contacts, custom SMS template text, timer settings, and emergency dispatch logs—is stored exclusively on your device using Android's Room persistence library (SQLite).
 
-| Permission | Purpose in BEACON | Data Destination |
+- **Storage Location**: Data is stored inside Android's app-private data directory (`/data/data/com.beacon.sos/databases/`), protected by standard Android OS sandboxing security.
+- **Data Lifecycle**: Uninstalling Beacon completely purges all local app database files and configuration preferences from your device.
+
+---
+
+## 3. Cellular Telephony & Android Runtime Permissions
+
+Beacon requests runtime Android permissions strictly to execute emergency alerting features directly initiated by the user:
+
+| Permission | Purpose in Beacon | Transmission Scope |
 | :--- | :--- | :--- |
-| `SEND_SMS` | Transmits emergency SMS alerts to user-selected contacts upon activation | Outbound SMS via cellular carrier to selected contacts only |
-| `CALL_PHONE` | Initiates voice phone calls to designated emergency contacts | Outbound phone calls via device telephony subsystem |
-| `ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION` | Appends current GPS coordinates / Google Maps link to emergency SMS | Included inside outbound SMS sent to selected contacts |
-| `READ_CONTACTS` | Allows user to pick emergency contacts directly from phonebook | Kept local inside device database |
-| `POST_NOTIFICATIONS` | Displays active emergency status, countdowns, and call controls | Displayed locally on device lock screen / notification shade |
+| `SEND_SMS` | Transmits emergency SMS alerts to user-designated contacts upon activation | Outbound SMS sent via your cellular carrier to designated contacts only |
+| `CALL_PHONE` | Initiates voice phone calls to designated emergency contacts | Outbound phone calls handled by your device's cellular telephony subsystem |
+| `ACCESS_FINE_LOCATION` / `ACCESS_COARSE_LOCATION` | Queries local GPS/network providers to append current location coordinates / Google Maps link to outbound SMS | Included inside outbound SMS messages sent to designated contacts |
+| `READ_CONTACTS` | Allows selecting emergency contacts directly from your device address book | Kept local within the app's local database |
+| `POST_NOTIFICATIONS` | Displays active emergency status, safety countdowns, and call controls | Displayed locally on device lock screen and notification shade |
 
 ---
 
 ## 4. Contact & Support
 
-For privacy inquiries regarding BEACON, please review this public policy or refer to official release notices in this repository.
+For questions or inquiries regarding privacy and data handling in Beacon, please review this public policy or refer to the release notices in this repository.
