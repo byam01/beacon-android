@@ -80,8 +80,9 @@ Beacon is a lightweight, offline-oriented native Android emergency application e
 
 ## Documentation Index
 
-- **[PRIVACY.md](file:///D:/tempo/beacon---minimal-emergency-sos/beacon-android/PRIVACY.md)** — Data disclosure confirming zero remote data collection or analytics.
-- **[SAFETY.md](file:///D:/tempo/beacon---minimal-emergency-sos/beacon-android/SAFETY.md)** — Detailed safety warnings, OS platform limits, and testing guidelines.
-- **[TESTING.md](file:///D:/tempo/beacon---minimal-emergency-sos/beacon-android/TESTING.md)** — Summary of verified automated unit tests and build status.
-- **[CHANGELOG.md](file:///D:/tempo/beacon---minimal-emergency-sos/beacon-android/CHANGELOG.md)** — Official version history and release notes.
-- **[DEVELOPER_NOTE.md](file:///D:/tempo/beacon---minimal-emergency-sos/beacon-android/DEVELOPER_NOTE.md)** — Personal note from the developer.
+- **[DEVELOPER_NOTE.md](DEVELOPER_NOTE.md)** — Personal note from the developer.
+- **[PRIVACY.md](PRIVACY.md)** — Data disclosure confirming zero remote data collection or analytics.
+- **[SAFETY.md](SAFETY.md)** — Detailed safety warnings, OS platform limits, and testing guidelines.
+- **[TESTING.md](TESTING.md)** — Summary of verified automated unit tests and build status.
+- **[CHANGELOG.md](CHANGELOG.md)** — Official version history and release notes.
+- **[DEVELOPER_NOTE.md](DEVELOPER_NOTE.md)** — Personal note from the developer.
