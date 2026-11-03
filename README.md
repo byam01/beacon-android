@@ -40,15 +40,7 @@ Beacon is a lightweight, offline-oriented native Android emergency application e
 > 2. **Call Answer Detection Limits**: Android platform policies prevent non-dialer applications from detecting whether a call was answered by a human or voicemail. Beacon relies on explicit user controls on the Call HUD.
 > 3. **Never Test Against Public Emergency Numbers**: **Do not test Beacon against 911, 112, 999, or local public safety numbers.** Always use **Safety Test Mode** or consenting personal contacts for testing.
 
----
-
-## Visual Preview & Interface
-
-![Main SOS Screen](assets/sc.png)
-![Active Emergency HUD](assets/sc2.png)
-![Application Launcher](assets/launcher_screenshot.png)
-
----
+![Main SOS Screen](assets/homescmu.png)
 
 ## System Compatibility & Requirements
 
