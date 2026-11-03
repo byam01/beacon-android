@@ -6,12 +6,12 @@
 
 ## Downloads & Releases
 
-Official compiled release packages and release documentation are hosted under the [GitHub Releases](https://github.com/beacon-android/beacon-android/releases) page.
+Official compiled release packages and release documentation are hosted under the [GitHub Releases](https://github.com/byam01/beacon-android/releases) page.
 
 | Package | Contents | Direct Download Link |
 | :--- | :--- | :--- |
-| **Release APK** | Signed production Android package (`v1.0.3`) | **[Download app-release.apk](https://github.com/beacon-android/beacon-android/releases/download/v1.0.3/app-release.apk)** |
-| **Complete Package** | Signed APK + Complete Markdown Documentation | **[Download Beacon-v1.0.3-Complete.zip](https://github.com/beacon-android/beacon-android/releases/download/v1.0.3/Beacon-v1.0.3-Complete.zip)** |
+| **Release APK** | Signed production Android package (`v1.0.3`) | **[Download app-release.apk](https://github.com/byam01/beacon-android/releases/download/v1.0.3/app-release.apk)** |
+| **Complete Package(Recommended)** | Signed APK + Complete Markdown Documentation | **[Download Beacon-v1.0.3-Complete.zip](https://github.com/byam01/beacon-android/releases/download/v1.0.3/Beacon-v1.0.3-Complete.zip)** |
 
 > [!NOTE]
 > Release assets will be available upon official publishing to GitHub Releases.
