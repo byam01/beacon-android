@@ -2,8 +2,7 @@
 
 > **Notice**: Beacon is a closed-source emergency SOS application for Android. This repository serves as the official public distribution center, containing user documentation, safety guidance, privacy disclosures, testing reports, and official release binaries. **No application source code is hosted in this repository.**
 
----
-
+![Main SOS Screen](assets/homescmu.png)
 ## Downloads & Releases
 
 Official compiled release packages and release documentation are hosted under the [GitHub Releases](https://github.com/byam01/beacon-android/releases) page.
@@ -40,7 +39,6 @@ Beacon is a lightweight, offline-oriented native Android emergency application e
 > 2. **Call Answer Detection Limits**: Android platform policies prevent non-dialer applications from detecting whether a call was answered by a human or voicemail. Beacon relies on explicit user controls on the Call HUD.
 > 3. **Never Test Against Public Emergency Numbers**: **Do not test Beacon against 911, 112, 999, or local public safety numbers.** Always use **Safety Test Mode** or consenting personal contacts for testing.
 
-![Main SOS Screen](assets/homescmu.png)
 
 ## System Compatibility & Requirements
 
