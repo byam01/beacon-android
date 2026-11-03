@@ -78,6 +78,16 @@ Beacon is a lightweight, offline-oriented native Android emergency application e
 
 ---
 
+## Feedback and Bug Reports
+
+Found a bug, encountered an installation problem, or have a suggestion?
+
+Please contact us at:
+
+projects.anurag@protonmail.com
+
+Your feedback is appreciated and helps improve Beacon.
+
 ## Documentation Index
 
 - **[DEVELOPER_NOTE.md](DEVELOPER_NOTE.md)** — Personal note from the developer.
